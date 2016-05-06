@@ -1,0 +1,15 @@
+#!/usr/bin/env node
+
+var caterpillar = require('../');
+
+var argv = process.argv;
+
+// console.log(argv);
+// 
+if (argv[2] == 'RUN') {
+    caterpillar.run();
+} else  {
+    var command = argv.slice(2).join(' ');
+    console.log(command);
+    caterpillar.add(command);
+}

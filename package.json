@@ -1,0 +1,14 @@
+{
+  "name": "caterpillar",
+  "version": "1.0.0",
+  "description": "`caterpillar` => 毛毛虫，意为多任务执行队列，防止正在执行的任务堆积，影响系统性能",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wodexintiao@gmail.com",
+  "license": "ISC"
+}
